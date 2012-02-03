@@ -21,7 +21,7 @@ exports.index = function(req, res){
 					});
 				}
 			});
-			res.render('index', { title: 'Reise', baseUrl: ECOVIVAS_BASE_URL, cameras: cameras })	
+			res.render('index', { baseUrl: ECOVIVAS_BASE_URL, cameras: cameras })	
     	});
 	});
 	
