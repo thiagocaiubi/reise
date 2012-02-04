@@ -17,7 +17,7 @@ exports.index = function(req, res){
 				if (isCameraInRoute(camera)) {
 					cameras.push({
 						image: camera.img,
-						location: camera.trecho
+						title: camera.trecho + ' - km '+ camera.kmExibe
 					});
 				}
 			});

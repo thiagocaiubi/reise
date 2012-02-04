@@ -9,8 +9,9 @@ html
 		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
 		
 		link(rel='stylesheet', href='/libraries/bootstrap/css/bootstrap.min.css')
-		link(rel='stylesheet', href='/stylesheets/style.css')
 		link(rel='stylesheet', href='/libraries/bootstrap/css/bootstrap-responsive.min.css')
+		link(rel='stylesheet', href='/libraries/photoswipe/photoswipe.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
 		
 	body
 		div.navbar.navbar-fixed-top
@@ -19,3 +20,7 @@ html
 					a.brand(href='#') Reise
 		div.container
 			!= body
+		script(type='text/javascript', src='/libraries/photoswipe/lib/klass.min.js')
+		script(type='text/javascript', src='/libraries/photoswipe/code.photoswipe-3.0.4.min.js')
+		script(type='text/javascript', src='/javascripts/image.gallery.js')
+					

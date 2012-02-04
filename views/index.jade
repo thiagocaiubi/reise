@@ -1,7 +1,9 @@
 h3 C&acirc;meras de S&atilde;o Paulo para o Guaruj&aacute; via Imigrantes
 
-dl#cameras
+ul#cameras
 	- each camera in cameras
-		dt=camera.location
-		dd
-			img(src=baseUrl+camera.image) 
+		li
+			h5= camera.title
+			div
+				a(href=baseUrl+camera.image)
+					img(src=baseUrl+camera.image, alt=camera.title, title=camera.title) 
