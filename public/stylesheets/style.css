@@ -1,7 +1,11 @@
 body {
-	padding-top: 60px;
+	padding-top:60px;
+	background-attachment:scroll;
+	background-clip:border-box;
+	background-color:transparent;
+	background-image:url(/images/bg.jpg);
+	background-origin:padding-box;
 }
-
 #cameras {
-	list-style: none;
+	list-style:none;
 }
