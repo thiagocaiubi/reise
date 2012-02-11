@@ -20,4 +20,6 @@ ul#cameras
 			h5= camera.title
 			div
 				a(href=baseUrl+camera.image)
-					img(src=baseUrl+camera.image, alt=camera.title, title=camera.title) 
+					img(src=baseUrl + camera.image, alt=camera.title, title=camera.title)
+				div.social 
+					a.pin-it-button(href='http://pinterest.com/pin/create/button/?url=reise.herokuapp.com&media=' + baseUrl + camera.image + '&description=' + camera.title) Pin It 
